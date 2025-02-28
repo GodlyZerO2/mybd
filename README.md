@@ -3,20 +3,26 @@
 1) Выберите из таблицы orders все заказы
 
    
-![image](https://github.com/user-attachments/assets/ebdbfae2-ec2f-47eb-8656-98ed6774c9ab)
+![aa1](https://github.com/user-attachments/assets/6895b211-4d76-47ef-8531-b396e71ae814)
+
+
 
 2) Выберите из таблицы orders все заказы кроме новых. 
 У новых заказов status равен "new". Использовать in
-   ![image](https://github.com/user-attachments/assets/a58f9a0d-4a17-4d46-a749-7d944637d798)
+   ![aa2](https://github.com/user-attachments/assets/107e5f52-585a-4a12-b815-426b646b5be3)
+
+
 
 3) Выберите из таблицы orders все новые и отмененные заказы. У отмененных заказов status равен "cancelled". У новых заказов status равен "new".
 
-  ![image](https://github.com/user-attachments/assets/cef07c92-d10f-488a-a2dd-0732f816b8a4)
+  ![aa3](https://github.com/user-attachments/assets/5bd3e56d-8010-4415-aa37-b1bfc2fd5840)
+
 
 4) Выберите из таблицы orders все заказы содержащие более 3 товаров (products_count).
 Вывести нужно только номер (id) и сумму (sum) заказа.
 
-![image](https://github.com/user-attachments/assets/11959c64-1e16-4d67-a962-0c5e45fe4714)
+![aa4](https://github.com/user-attachments/assets/bc359565-43da-44fc-aa5d-09724e8f50fb)
+
 
 
 
@@ -26,14 +32,16 @@
 Данные нужно отсортировать в порядке убывания цены.
 Отмененные заказы не учитывайте.
 
-![image](https://github.com/user-attachments/assets/ef4864c1-ccd4-4d9b-84df-cec5e0f6eee2)
+![aa5](https://github.com/user-attachments/assets/98ec3abd-ef83-4218-acf6-769ec1560f37)
+
 
 
 2) Выберите из таблицы orders 2 самых дорогих заказов за всё время.
 Данные нужно отсортировать в порядке убывания цены.
 Отмененные заказы не учитывайте.
 
-![image](https://github.com/user-attachments/assets/6b7d7ed7-7168-441e-8674-a9dff5aa4457)
+![aa6](https://github.com/user-attachments/assets/2d085b62-a785-4542-bced-cc5490fa34c5)
+
 
 
 3) Добавьте в таблицу orders данные о новом заказе стоимостью 8000 рублей. В заказе 4 товара (products).
