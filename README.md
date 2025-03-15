@@ -82,3 +82,29 @@ UPDATE table1 SET column1=new_value column2=new_value WHERE condition;
  DELETE FROM table; Удаление всех записей
  
  DELETE FROM table WHERE condition; Удаление записей, соответствующих условию
+
+Третья лаба:
+ 
+ 1) Создайте таблицу users для хранения информации о пользователях сайта.
+В таблице должны быть следующие поля:
+
+id – идентификатор, целое положительное;
+email – адрес электронной почты, строка не более 100 символов;
+date_joined – дата регистрации (достаточно хранить дату, без времени)
+last_activity – дата и время последней активности (с точностью до секунд).
+
+![image](https://github.com/user-attachments/assets/bfb871ef-8642-4f4c-b120-3d748ef0f204)
+
+![image](https://github.com/user-attachments/assets/34dfe760-516b-496d-999a-4790d0fe67e0)
+
+2) Создайте таблицу calendar для хранения календаря посетителей.
+В таблице должны быть следующие поля:
+
+id – идентификатор записи в календаре, целое положительное;
+user_id – идентификатор пользователя, целое положительное;
+doctor_id – идентификатор доктора, целое положительное;
+visit_date – дата и время визита (точность до секунд).
+
+![image](https://github.com/user-attachments/assets/35dd0c80-f95e-4a2d-9646-9fd7d25c1ec9)
+
+![image](https://github.com/user-attachments/assets/7e754d02-e252-4d88-889b-3fc1008915a6)
